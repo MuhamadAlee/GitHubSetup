@@ -1,0 +1,28 @@
+
+******************************************************************** Making New Repository ********************************************************************
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MuhamadAlee/MuhamadAlee.git
+git push -u origin main
+
+
+
+******************************************************************** Existing Repository ********************************************************************
+
+git remote add origin https://github.com/MuhamadAlee/MuhamadAlee.git
+git branch
+git branch branch_one
+git checkout branch_one
+git pull origin branch_one
+
+******************************************************************** Existing Repository ********************************************************************
+
+
+git remote add origin https://github.com/MuhamadAlee/MuhamadAlee.git
+git add .
+git commit -m "second_commit"
+git branch -M branch_one
+git push -u origin branch_one
