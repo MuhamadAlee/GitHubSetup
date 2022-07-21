@@ -11,13 +11,13 @@
 
     ffmpeg -ss 1 -t 3 -i input.mp4 -vf "fps=10,scale=512:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 output.gif
     
-<!--     it will ss--skip first 1 second and make the gif of total -t 3 seconds  -->
+    ## it will ss--skip first 1 second and make the gif of total -t 3 seconds 
     
 **Trim the video**
 
     ffmpeg -i input.mp4 -vf trim=8:13 output.mp4
     
-<!--     it will trim from 8 seconds to 13 seconds -->
+    ## it will trim from 8 seconds to 13 seconds
 
 **Merge audio with the video**
 
